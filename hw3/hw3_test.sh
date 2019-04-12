@@ -1,3 +1,4 @@
+#! /usr/bin/env bash
 curl -L -o model_1_0.h5 'https://www.dropbox.com/s/mbkrtqx3inzh8ts/model_1_0.h5?dl=1'
 curl -L -o model_1_1.h5 'https://www.dropbox.com/s/q03jcmtfgbf3eh2/model_1_1.h5?dl=1'
 curl -L -o model_1_2.h5 'https://www.dropbox.com/s/xgjx03e24i4qiii/model_1_2.h5?dl=1'
