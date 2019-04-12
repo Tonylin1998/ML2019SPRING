@@ -121,7 +121,7 @@ for layer_name in layers:
     
         np.random.seed(28)
         input_img_data = np.random.random((1, 48, 48, 1))
-        print(input_img_data)
+        #print(input_img_data)
         for i in range(100):
             loss_value, grads_value = f([input_img_data])
             input_img_data += grads_value * lr
@@ -142,7 +142,7 @@ for layer_name in layers:
 
 
 #### visuallize filter output ####
-img_idx = 10
+img_idx = 0
 result = []
 for layer_name in layers:
     
