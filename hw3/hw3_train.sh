@@ -1,0 +1,1 @@
+python3 model_1_train.py $1
