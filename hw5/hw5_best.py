@@ -9,7 +9,7 @@ from PIL import Image
 import tensorflow as tf
 from keras.preprocessing import image
 import sys
-torch.backends.cudnn.deterministic = True
+#torch.backends.cudnn.deterministic = True
 input_dir = sys.argv[1]
 output_dir = sys.argv[2]
 
