@@ -46,4 +46,4 @@ tf-nightly-gpu==1.14.1.dev20190601
 tqdm==4.32.1
 urllib3==1.24.3
 Werkzeug==0.15.2
-wrapt==1.11.1
+wrapt==1.11.1 python=3.6.8
