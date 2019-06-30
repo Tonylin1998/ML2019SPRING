@@ -36,7 +36,11 @@ dataset 放入 data資料夾中
 
 最後再執行setup.sh  （必須在shell_file 資料夾內）
 
-### 4) training & testing
+### 4) training & testing & downloading
+
+- downloading
+
+執行download.sh，為我們預先train好的model
 
 - training
 
@@ -47,6 +51,6 @@ dataset 放入 data資料夾中
 執行 predict.sh，這個sh需要一個model的路徑當作參數，型如
 
 ```sh
-sh predict.sh ../model/22911.h5
+sh predict.sh ../model/sample_model.h5
 ```
 
