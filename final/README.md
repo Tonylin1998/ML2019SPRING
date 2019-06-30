@@ -6,7 +6,7 @@
 - snapshots : 將training過程中每個epoch的model存放在此，並依照 validation 狀況**挑選好的model 存進 model資料夾中。**
 - src : 放置source code 
 
-###1) data set
+### 1) data set
 
 提供的檔案：**ML2019Spring-Final-DeepQ_v2.zip** 有資料夾及檔案 ，將檔案放在 /final/data 資料夾下，型如
 
@@ -22,7 +22,7 @@
 
 /final/data/bbox_to_rle.py 
 
-###2)  model  & snapshots
+### 2)  model  & snapshots
 
 model 資料夾中放置我們train好的model，可以在 predict.sh 直接作使用
 
@@ -30,11 +30,10 @@ snapshots 資料夾中則會在 train.sh 訓練過程中，存放每個epoch產�
 
 ### 3) setup
 
-先安裝 requirements.txt 的環境
 
 dataset 放入 data資料夾中
 
-最後再執行setup.sh  （必須在shell_file 資料夾內）
+執行setup.sh  （必須在shell_file 資料夾內）
 
 ### 4) training & testing & downloading
 
