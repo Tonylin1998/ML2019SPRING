@@ -30,6 +30,7 @@ snapshots 資料夾中則會在 train.sh 訓練過程中，存放每個epoch產�
 
 ### 3) setup
 
+python=3.6.8
 
 dataset 放入 data資料夾中
 
