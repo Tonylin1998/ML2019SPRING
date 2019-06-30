@@ -17,8 +17,6 @@ Keras-Preprocessing==1.0.9
 keras-resnet==0.2.0
 keras-retinanet==0.5.0
 Markdown==3.1
-mkl-fft==1.0.12
-mkl-random==1.0.2
 mock==3.0.5
 numpy==1.16.4
 opencv-python==4.1.0.25
@@ -41,8 +39,6 @@ tensorflow-estimator==1.13.0
 tensorflow-gpu==1.9.0
 termcolor==1.1.0
 text-unidecode==1.2
-tf-estimator-nightly==1.14.0.dev2019052901
-tf-nightly-gpu==1.14.1.dev20190601
 tqdm==4.32.1
 urllib3==1.24.3
 Werkzeug==0.15.2
